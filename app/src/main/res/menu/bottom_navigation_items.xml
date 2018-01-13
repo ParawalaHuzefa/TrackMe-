@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_item3"
+        android:title="View User"
+        android:icon="@drawable/view_img"
+        />
+
+    <item
+        android:id="@+id/action_item1"
+        android:title="Add User"
+        android:icon="@drawable/add_image"/>
+
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@drawable/remove_img"
+        android:title="Remove User" />
+
+    <item
+        android:id="@+id/action_item4"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Request" />
+
+</menu>

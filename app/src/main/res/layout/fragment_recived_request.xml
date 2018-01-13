@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.AddFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pending Requests"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/noReqTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No request Found"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/requestedUsersList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal" />
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Approved Requests"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/noAPReqTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No request Found"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/apRequestedUsersList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal" />
+
+</LinearLayout>
